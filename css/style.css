@@ -1,0 +1,74 @@
+body {
+    margin : 10% auto;
+    text-align: center; 
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg"),linear-gradient(to right, hsl(227, 10%, 46%), hsl(227, 10%, 46%));
+    background-position-x: -80px, +800px, 0;
+    background-position-y: -300px, +300px , 0;
+    background-repeat: no-repeat, no-repeat, repeat;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 20px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#carte {
+    box-sizing: border-box;
+    margin : 0 auto;
+    background-color: white;
+    height : 375px;
+    width: 350px;
+    border-radius: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+#carte .photo {
+    background-image: url("../images/bg-pattern-card.svg");
+    border-radius: 15px 15px 0 0;
+    height : 140px;
+}
+
+#carte img {
+    border-radius: 50%;
+    border : solid 4px white;
+    position: relative;
+    top : 86px;
+}
+
+#carte .nom {
+    margin-top : 75px;
+}
+
+#carte .ville {
+    color : #7b7a7f;
+    font-size: 15px;
+}
+
+#carte span {
+    color : #7b7a7f;
+}
+
+#carte hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: white;
+}
+
+#carte table {
+    width: 100%;
+}
+
+#carte td {
+    width: 33%;
+}
+
+#carte .light {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color : #7b7a7f;
+}
